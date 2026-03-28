@@ -4,3 +4,10 @@ header {
   
 }
 
+.button {
+  background-color: #141379;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
