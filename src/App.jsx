@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import MyLibrary from "./pages/MyLibrary";
 
+
 const router = createBrowserRouter([
   
    
@@ -19,7 +20,13 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <Layout pepito={"hola"}> <RouterProvider  router={router} /></Layout>;
-  }
+  return ( 
+    <>
+      <Layout><RouterProvider router={router} /></Layout>
+    </>
+  
+  );
+}
 
+  
 export default App;

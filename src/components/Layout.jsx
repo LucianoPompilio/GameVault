@@ -1,15 +1,14 @@
 import { Outlet } from "react-router-dom";
+import Header from "./Header";
 
-
-function Layout({children, pepito}) { 
+function Layout({children}) { 
   return (
     <>
-      <header>
-        <h1>Mi App</h1>
-      </header>
+
 
       <main>
-        {children} {pepito}
+        <Header></Header>
+        {children} 
       </main>
     </>
   );
