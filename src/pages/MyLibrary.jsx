@@ -1,13 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function MyLibrary() {
   return (
     <div>
       <h1>Mi Biblioteca</h1>
 
-      <Link to="/">
-        Volver al Home
-      </Link>
+      <Link to="/">Volver al Home</Link>
     </div>
   );
 }
