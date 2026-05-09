@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <h1>Mi App</h1>
+      <h1 className="text-6xl font-black uppercase tracking-widest text-green-400">Game Vault</h1>
     </header>
   );
 }

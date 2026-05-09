@@ -9,7 +9,7 @@ function Home() {
         label="Haz clic aquí"
         onClick={() => alert('¡Botón clickeado!')}
       />
-      <Link to="/library">Ir a Mi Biblioteca</Link>
+      <Link to="/library" className='rounded-full bg-red-400 shadow-xl p-4'>Ir a Mi Biblioteca</Link>
     </div>
   );
 }
