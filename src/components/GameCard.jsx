@@ -1,5 +1,5 @@
 import Button from './Button';
-function GameCard({ title, year, developer, image, onButtonClick }) {
+function GameCard({ id, title, year, developer, image, onButtonClick }) {
   return (
     <div className="w-64 bg-zinc-900 rounded-xl overflow-hidden shadow-lg p-4 flex flex-wrap gap-4">
       <img
